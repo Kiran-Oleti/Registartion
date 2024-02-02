@@ -1,0 +1,17 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="Username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="Password" required>
+
+    <button type="submit">Register</button>
+</form>
